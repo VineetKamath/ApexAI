@@ -1,12 +1,12 @@
-# 🚀 ApexAI - Market Surveillance Platform
+#  ApexAI - Market Surveillance Platform
 
 A real-time market surveillance platform to detect algorithmic manipulation (spoofing/layering) and insider trading, built with Python backend (AI models + data streaming) and a professional SEBI-style React frontend.
 
-## 🎯 Project Overview
+##  Project Overview
 
 ApexAI is a comprehensive market surveillance solution that combines advanced AI models with real-time data streaming to detect market manipulation patterns and insider trading activities. The platform provides regulators and compliance officers with real-time insights into trading activities.
 
-### 🔍 Key Features
+###  Key Features
 
 - **Real-time Trade Monitoring**: Live streaming of trade data with fraud detection scores
 - **AI-Powered Detection**: LSTM models for spoofing/layering detection + Isolation Forest for insider trading
@@ -15,7 +15,7 @@ ApexAI is a comprehensive market surveillance solution that combines advanced AI
 - **Alert System**: Automated flagging of high-risk trades
 - **Trade Simulation**: Realistic market data generation with manipulation patterns
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ApexAI/
@@ -125,7 +125,7 @@ ApexAI/
 
    The frontend will start on `http://localhost:3000`
 
-## 🔧 Configuration
+##  Configuration
 
 ### Backend Configuration
 
@@ -202,7 +202,7 @@ The backend continuously fetches live market data from Yahoo Finance:
 4. **Stream**: Real-time emission to connected clients via WebSocket
 5. **Analyze**: AI models process each trade for anomaly detection
 
-## 🎮 Trade Simulator
+##  Trade Simulator
 
 The backend includes a sophisticated trade simulator that generates:
 
@@ -218,7 +218,7 @@ The backend includes a sophisticated trade simulator that generates:
 - Scheduled market events (earnings, regulatory, mergers)
 - Automatic pattern generation and rotation
 
-## 🌐 Backend API Endpoints
+##  Backend API Endpoints
 
 ### REST Endpoints
 
@@ -262,7 +262,7 @@ Each trade includes:
 }
 ```
 
-## 🎨 Frontend Features
+##  Frontend Features
 
 ### Dashboard Components
 
@@ -283,7 +283,7 @@ Each trade includes:
 - **Typography**: Inter (UI) + JetBrains Mono (data)
 - **Responsive**: Optimized for desktop, tablet, and mobile
 
-## 📈 Real-time Features
+## Real-time Features
 
 - **Live Trade Stream**: Updates every 2 seconds
 - **Risk Scoring**: Real-time manipulation and insider detection
@@ -291,7 +291,7 @@ Each trade includes:
 - **Chart Updates**: Dynamic visualization of market trends
 - **Connection Monitoring**: Real-time backend connectivity status
 
-## 🔍 Fraud Detection Patterns
+##  Fraud Detection Patterns
 
 ### Manipulation Detection
 
@@ -307,7 +307,7 @@ Each trade includes:
 - **Order Imbalances**: Large buy/sell imbalances
 - **Timing Anomalies**: Trading outside normal patterns
 
-## 🚨 Alert System
+##  Alert System
 
 The platform automatically generates alerts for:
 
@@ -316,7 +316,7 @@ The platform automatically generates alerts for:
 - Trades with latency > 100ms
 - High-volume suspicious patterns
 
-## 🛠️ Development
+##  Development
 
 ### Backend Development
 
@@ -370,14 +370,13 @@ The platform automatically generates alerts for:
 - **Recharts**: Professional chart library
 - **Socket.IO Client**: Real-time data handling
 
-## 📱 Browser Support
-
+##  Browser Support
 - Chrome 90+
 - Firefox 88+
 - Safari 14+
 - Edge 90+
 
-## 🚀 Production Deployment
+##  Production Deployment
 
 ### Backend Deployment
 
@@ -406,7 +405,7 @@ The platform automatically generates alerts for:
    serve -s dist -l 3000
    ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -414,11 +413,11 @@ The platform automatically generates alerts for:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is created for the Sebi Hackathon and is intended for educational and demonstration purposes.
 
-## 🆘 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -441,7 +440,7 @@ This project is created for the Sebi Hackathon and is intended for educational a
 - Frontend limits displayed trades to last 100 for performance
 - Charts update in real-time with smooth animations
 
-## 📞 Support
+##  Support
 
 For technical support or questions about the ApexAI platform:
 
