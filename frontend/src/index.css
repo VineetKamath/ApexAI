@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow-sm border border-apex-light-gray;
+  }
+  
+  .btn-primary {
+    @apply bg-apex-navy text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-all duration-200 font-medium;
+  }
+  
+  .btn-secondary {
+    @apply bg-apex-steel text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-all duration-200 font-medium;
+  }
+  
+  .risk-indicator {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  
+  .risk-low {
+    @apply bg-apex-green bg-opacity-10 text-apex-green;
+  }
+  
+  .risk-medium {
+    @apply bg-apex-yellow bg-opacity-10 text-apex-yellow;
+  }
+  
+  .risk-high {
+    @apply bg-apex-red bg-opacity-10 text-apex-red;
+  }
+}
